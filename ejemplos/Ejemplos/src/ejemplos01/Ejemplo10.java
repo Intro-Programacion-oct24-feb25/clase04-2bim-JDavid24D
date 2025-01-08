@@ -27,7 +27,7 @@ public class Ejemplo10 {
         String cadena = "";
         suma = operandor1 + operandor2;
         cadena = String.format("%s%d\n", cadena, suma);
-        return cadena;        
+        return cadena; 
     }
     
     public static int obtenerSuma(int operandor1, int operandor2){
