@@ -16,6 +16,7 @@ public class Ejemplo081 {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        
         String mensajeSuma;
         String mensajeSumaDos;
 
@@ -28,22 +29,17 @@ public class Ejemplo081 {
         System.out.println("Ingrese la tabla");
         tabla = entrada.nextInt();
 
-        mensajeSuma = obtenerTablaSumar(limite, tabla); // se invoca al método 
-        // obtenerTablaSumar
-        // y el valor que 
-        // devuelve se lo 
-        // almacena  en mensajeSuma
-
-        mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
-
-        System.out.println("Ingrese el numero 1 para sumar, ingrese 2 para multiplicar");
+        System.out.println("Ingrese el numero 1 para la tabla de sumar, ingrese "
+                + "2 para la tabla de multiplicar");
         opcion = entrada.nextInt();
 
         switch (opcion) {
             case 1:
+                mensajeSuma = obtenerTablaSumar(limite, tabla); 
                 System.out.printf("%s\n", mensajeSuma);
                 break;
             case 2:
+                mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
                 System.out.printf("%s\n", mensajeSumaDos);
                 break;
         }
