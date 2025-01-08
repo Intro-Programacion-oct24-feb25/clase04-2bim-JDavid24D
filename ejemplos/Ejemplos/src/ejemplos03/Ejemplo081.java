@@ -18,9 +18,11 @@ public class Ejemplo081 {
         Scanner entrada = new Scanner(System.in);
         String mensajeSuma;
         String mensajeSumaDos;
+        
         int limite;
         int tabla;
         int opcion;
+        
         System.out.println("Ingrese el limite de la tabla");
         limite = entrada.nextInt();
         System.out.println("Ingrese el numero de la tabla");
@@ -33,6 +35,7 @@ public class Ejemplo081 {
                                                        // almacena  en mensajeSuma
         
         mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
+        
         System.out.println("Ingrese el numero 1 para sumar, ingrese 2 para multiplicar");
         opcion = entrada.nextInt();
         
