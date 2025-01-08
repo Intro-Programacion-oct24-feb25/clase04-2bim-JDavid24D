@@ -10,7 +10,15 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+    /*En este codigo en el main tengo tres arreglos bidimensionales y un ciclo 
+    repetitivo el cual permite ir dando los datos de los arreglos luego tenemos 
+    una funcion y un procedimiento en la funcion multiplicamos el resultado q nos
+    da el arreglo 1 y el arreglo 2 y en el procedimiento tenemos una cadena acumuladora
+    la cual al final imprime todos los resultados de los tres arreglos con sus valores
+    reutilizamos el procedimiento tres veces solo cambiando el numero de arreglo 
+    q queremos q imprima
+    
+    */
     public static void main(String[] args) {
         // 
         
