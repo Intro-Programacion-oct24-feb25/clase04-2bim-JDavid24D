@@ -21,6 +21,7 @@ public class Ejemplo11 {
         String mensajeSumaTres = repetirNombre("Jose Gavica", arreglo);
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%s\n", mensajeSumaDos);
+        System.out.printf("%s\n", mensajeSumaTres);
     }
 
     public static String repetirNombre(String nombre, int[] arreglo2) {
